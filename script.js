@@ -1,5 +1,5 @@
 // Getting the Current Day of the week
-const currentDay = document.getElementById("currentDayOfTheWeek");
+const currentDay = document.getElementById("currentDay");
 let DaysOfWeek = [
   "Sunday",
   "Monday",
