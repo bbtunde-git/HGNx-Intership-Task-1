@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff7d4;
+}
+.container {
+  width: 70%;
+  margin: 50px auto;
+}
+.flex-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+h1 {
+  font-family: "Coiny";
+  font-size: 44px;
+  color: #6d5d6e;
+  transition: 0.2s;
+}
+h1:hover {
+  font-size: 48px;
+}
+h3 {
+  font-family: "Coiny";
+  font-size: 30px;
+  color: #6d5d6e;
+  transition: 0.2s;
+}
+h3:hover {
+  font-size: 35px;
+}
+img {
+  width: 450px;
+  height: 84vh;
+  border-radius: 100px;
+}
+#currentDayOfTheWeek,
+#currentUTCTime {
+  font-family: "Coiny";
+  font-size: 20px;
+  color: #6d5d6e;
+}
+i {
+  font-size: 50px;
+  color: #6d5d6e;
+}
