@@ -15,5 +15,5 @@ currentDay.innerHTML = DaysOfWeek[dayToday];
 
 // Getting the Current UTC Timestamp
 const currentTime = document.getElementById("currentUTCTime");
-let newTime = new Date().toUTCString();
+let newTime = new Date().getUTCMilliseconds();
 currentTime.innerHTML = newTime;
