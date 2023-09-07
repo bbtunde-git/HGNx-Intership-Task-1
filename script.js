@@ -11,7 +11,7 @@ let DaysOfWeek = [
 ];
 let dateToday = new Date();
 let dayToday = dateToday.getDay();
-currentDay.innerHTML = `Today is <span>${DaysOfWeek[dayToday]}</span>`;
+currentDay.innerHTML = DaysOfWeek[dayToday];
 
 // Getting the Current UTC Timestamp
 const currentTime = document.getElementById("currentUTCTime");
