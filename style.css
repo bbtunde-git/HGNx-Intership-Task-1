@@ -8,48 +8,53 @@ body {
 }
 .container {
   width: 80%;
-  margin: 50px auto;
+  margin: 80px auto;
 }
 .flex-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 .flex-item {
-  width: 650px;
+  width: 100%;
 }
+
 h1 {
   font-family: "Coiny";
-  font-size: 72px;
-  color: #6d5d6e;
+  font-size: 4rem;
+  color: #4f4557;
+  cursor: pointer;
   transition: 0.2s;
 }
 h1:hover {
-  font-size: 74px;
+  color: #6d5d6e;
+  rotate: -2deg;
 }
 h3 {
   width: 80%;
   font-family: "Coiny";
-  font-size: 50px;
-  color: #6d5d6e;
+  font-size: 3rem;
+  color: #4f4557;
+  cursor: pointer;
   transition: 0.2s;
 }
 h3:hover {
-  font-size: 55px;
+  color: #6d5d6e;
+  rotate: -2deg;
 }
 img {
-  width: 450px;
-  height: 84vh;
+  width: 420px;
   border-radius: 100px;
 }
 #currentDayOfTheWeek,
 #currentUTCTime {
   font-family: "Coiny";
   font-size: 35px;
-  color: #6d5d6e;
+  color: #4f4557;
 }
 i {
   font-size: 50px;
-  color: #6d5d6e;
+  color: #4f4557;
 }
