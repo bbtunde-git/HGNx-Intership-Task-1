@@ -13,7 +13,7 @@ let dateToday = new Date();
 let dayToday = dateToday.getDay();
 currentDay.innerHTML = DaysOfWeek[dayToday];
 
-// Getting the Current UTC Timestamp
+// Getting the Current UTC Timestamp in Milliseconds
 const currentTime = document.getElementById("currentUTCTime");
 let newTime = new Date().getTime();
 currentTime.innerHTML = newTime;
