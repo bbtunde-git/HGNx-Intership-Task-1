@@ -22,29 +22,29 @@ body {
   align-items: center;
 }
 
-h1 {
+#babatunde_o {
   font-family: "Coiny";
   font-size: 4rem;
   color: #4f4557;
   cursor: pointer;
   transition: 0.2s;
 }
-h1:hover {
+#babatunde_o:hover {
   color: #6d5d6e;
   rotate: -2deg;
 }
-h3 {
+#frontend {
   font-family: "Coiny";
   font-size: 3rem;
   color: #4f4557;
   cursor: pointer;
   transition: 0.2s;
 }
-h3:hover {
+#frontend:hover {
   color: #6d5d6e;
   rotate: -2deg;
 }
-img {
+#teedev {
   width: 420px;
   /* height: 100vh; */
   border-radius: 100px;
@@ -55,7 +55,7 @@ img {
   font-size: 35px;
   color: #4f4557;
 }
-i {
+#gitHubURL {
   font-size: 50px;
   color: #4f4557;
 }
